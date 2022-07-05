@@ -1,0 +1,18 @@
+.book_page__img {
+  height: 400px;
+  width: 300px;
+  box-shadow: 16px 14px 15px -6px rgba(0, 0, 0, 0.35);
+}
+
+.book_page__title {
+  font-weight: bold;
+}
+
+.book_page {
+  text-align: start;
+}
+
+.col-img {
+  background-color: #f3f2f1;
+  padding: 10px 25px;
+}

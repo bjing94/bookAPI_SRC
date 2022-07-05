@@ -1,0 +1,27 @@
+.my-dropdown {
+  width: 100%;
+}
+.my-dropdown button {
+  text-align: start;
+}
+.my-dropdown > button::after {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+.my-dropdown > .dropdown-menu {
+  width: 100%;
+}
+
+.dropdown-label {
+  flex-wrap: nowrap;
+  width: 80px;
+  margin-right: 20px;
+}
+
+.hero {
+  background-image: url("https://c1.wallpaperflare.com/preview/127/366/443/library-book-bookshelf-read.jpg");
+  background-size: cover;
+  color: white;
+}
